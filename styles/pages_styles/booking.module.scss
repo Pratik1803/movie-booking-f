@@ -1,0 +1,25 @@
+.bookings {
+  min-height: calc(100vh - 60px);
+  //   background-color: red;
+  height: fit-content;
+  padding: 30px;
+  .user_details_wrapper {
+    width: 100%;
+
+    margin-bottom: 30px;
+    .user_details {
+      width: 50%;
+    }
+  }
+  .bookings_wrapper {
+    padding: 30px 15px;
+    border-radius: 20px;
+    background-color: var(--grey);
+    .booking {
+      background-color: var(--white);
+      padding: 30px 15px 10px 15px;
+      border-radius: 15px;
+      margin-bottom: 20px;
+    }
+  }
+}

@@ -1,0 +1,34 @@
+.container {
+  width: 100%;
+  padding: 30px;
+  min-height: 100vh;
+  display: flex;
+  .main {
+    width: 100%;
+    height: calc(100vh - 60px);
+    background-color: rgb(245, 245, 245);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    .hero_img {
+      width: 50%;
+      height: 100%;
+      background-color: red;
+      img {
+        width: 100%;
+      }
+    }
+    .login_sec {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      form {
+        margin-top: 30px;
+      }
+    }
+  }
+}

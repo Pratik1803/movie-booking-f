@@ -1,11 +1,8 @@
-import React from 'react';
-import Styles from "../../styles/comp_styles/signup.module.scss";
-
+import React from "react";
+import Styles from "../../styles/pages_styles/signup.module.scss";
 
 function signup() {
-  return (
-    <div>signup</div>
-  )
+  return <div>signup</div>;
 }
 
-export default signup
+export default signup;

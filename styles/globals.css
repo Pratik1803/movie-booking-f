@@ -1,18 +1,17 @@
-html,
-body {
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+:root{
+  --white: #f2f2f2;
+  --darkBg1: #202020;
+  --grey:rgb(210, 210, 210);
+  --darkBg2: rgb(45, 45, 45);
+  --booked: red;
+  --userBooked: green;
+  
 }
 
 @media (prefers-color-scheme: dark) {
